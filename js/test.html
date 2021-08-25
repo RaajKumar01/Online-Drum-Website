@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<p id="text"> This is a text </p>
+<button id = "btn"> Click Me </button>
+
+<script>
+ document.querySelector("#btn").addEventListener("click",function() { 
+    
+    var text = document.getElementById("text");
+    if(text.style.visibility === "hidden") {
+               
+             text.style.visibility = "visible";
+    }
+    else text.style.visibility = "hidden";
+ 
+ });</script>
+
+
+</body>
+</html>
